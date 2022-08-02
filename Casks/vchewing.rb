@@ -10,7 +10,8 @@ cask "vchewing" do
   pkg "vChewing-macOS-#{version}-unsigned.pkg", allow_untrusted: true
   
   uninstall script: {
-    executable: "#{staged_path}/Uninstall.app/Contents/Resources/GPG Suite Uninstaller.app/Contents/Resources/uninstall.sh",
+    executable: "~/Library/Input\ Methods/vChewing.app/Contents/MacOS/vChewing",
+    args: ["uninstall"],
     sudo: true,
   }
 end
