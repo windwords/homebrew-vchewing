@@ -9,9 +9,11 @@ cask "vchewing" do
 
   pkg "vChewing-macOS-#{version}-unsigned.pkg", allow_untrusted: true
   
-  uninstall script: {
-    executable: "~/Library/Input\ Methods/vChewing.app/Contents/MacOS/vChewing",
-    args: ["uninstall"],
-    sudo: true,
-  }
+  uninstall delete: "~/Library/Input\ Methods/vChewing.app"
+  uninstall delete: "~/Library/Keyboard\ Layouts/vChewingKeyLayout.bundle"
+  uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ MiTAC.keylayout"
+  uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ IBM.keylayout"
+  uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ FakeSeigyou.keylayout"
+  uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ ETen.keylayout"
+  uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ Dachen.keylayout"
 end
