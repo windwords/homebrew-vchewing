@@ -8,4 +8,6 @@ cask "vchewing" do
   homepage "https://vchewing.github.io/"
 
   pkg "vChewing-macOS-#{version}-unsigned.pkg", allow_untrusted: true
+  
+  uninstall script:"~/Library/Input\ Methods/vChewing.app/Contents/Resources/uninstall.sh"
 end
