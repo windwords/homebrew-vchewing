@@ -6,9 +6,18 @@ homebrew-vchewing is a Homebrew Cask to install [vChewing-macOS](https://github.
 
 ## Usage
 
+### Install
+
 ```shell
 brew tap windwords/vchewing
 brew install --cask vchewing
+```
+
+### Uninstall
+
+```shell
+brew uninstall --cask vchewing
+brew untap windwords/vchewing
 ```
 
 ## License
