@@ -2,7 +2,7 @@
 
 ## Description
 
-homebrew-vchewing is a Homebrew Cask to install [vChewing-macOS](https://github.com/vChewing/vChewing-macOS). 
+homebrew-vchewing is a Homebrew Cask to install/uninstall [vChewing-macOS](https://github.com/vChewing/vChewing-macOS). 
 
 ## Usage
 
