@@ -1,25 +1,29 @@
 # homebrew-vchewing
 
-## Description
+## 简介 Description
 
-homebrew-vchewing is a Homebrew Cask to install/uninstall [vChewing-macOS](https://github.com/vChewing/vChewing-macOS). 
+homebrew-vchewing是一个用于安装/卸载[vChewing-macOS](https://github.com/vChewing/vChewing-macOS)的Homebrew Cask。
 
-## Usage
+homebrew-vchewing is a Homebrew Cask for installing/uninstalling [vChewing-macOS](https://github.com/vChewing/vChewing-macOS). 
 
-### Install
+## 使用 Usage
+
+### 安装 Install
 
 ```shell
 brew tap windwords/vchewing
 brew install --cask vchewing
 ```
 
-### Uninstall
+### 卸载 Uninstall
 
 ```shell
 brew uninstall --cask vchewing
 brew untap windwords/vchewing
 ```
 
-## License
+## 许可证 License
 
-Licensed under the [GNU AGPL](https://raw.githubusercontent.com/windwords/homebrew-vchewing/master/LICENSE.txt).
+在[GNU AGPL](https://raw.githubusercontent.com/windwords/homebrew-vchewing/master/LICENSE.txt)下发布。
+
+Released under the [GNU AGPL](https://raw.githubusercontent.com/windwords/homebrew-vchewing/master/LICENSE.txt).
