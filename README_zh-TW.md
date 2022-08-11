@@ -9,12 +9,9 @@ homebrew-vchewing是一個用於安裝/解除安裝[威注音輸入法](https://
 
 ## 版本
 
-目前此Cask的更新方式為手工同步。即每次新版本釋出，由我手工在此處更新版本號和sha256，因此在一些情況下（比如在睡覺、上學或旅遊）可能無法第一時間更新。如果你發現下面的版本號和sha256在24小時內仍未更新的話，請通過[Issues](https://github.com/windwords/homebrew-vchewing/issues)、[電子郵件](mailto:windwords001@gmail.com)、[Twitter](https://twitter.com/windwords001)等渠道提醒我。
+目前此Cask的更新方式為手工同步。即每次新版本釋出，由我手工在此處更新版本號和sha256，因此在一些情況下（比如在睡覺、上學或旅遊）可能無法第一時間更新。如果你發現下面的版本號和sha256在24小時內仍未更新的話，請通過[Issues](https://github.com/windwords/homebrew-vchewing/issues)提醒我。
 
-```
-1.8.8 
-af91da2a7a4e55a2e6136c749661fc0049d7e9e07a6726691b6cb55eae203228
-```
+[https://github.com/windwords/homebrew-vchewing/raw/master/sha256.txt](https://github.com/windwords/homebrew-vchewing/raw/master/sha256.txt)
 
 ## 使用
 
