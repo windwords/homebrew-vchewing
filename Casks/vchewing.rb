@@ -16,4 +16,6 @@ cask "vchewing" do
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ FakeSeigyou.keylayout"
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ ETen.keylayout"
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ Dachen.keylayout"
+  uninstall delete: "~/Library/Receipts/org.atelierInmu.vChewing.bom"
+  uninstall delete: "~/Library/Receipts/org.atelierInmu.vChewing.plist"
 end
