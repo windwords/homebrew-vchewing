@@ -1,6 +1,6 @@
 cask "vchewing" do
-  version "2.3.1"
-  sha256 "e838bf970d45919cd38ea068a066a7e19b30b6c304f2503e593a66b080524a48"
+  version "2.4.0"
+  sha256 "12bd7c6f630e4264ab914ff73e386dbe635b5e32676588940376b8302feedae1"
   
   url "https://github.com/vChewing/vChewing-macOS/releases/download/#{version}/vChewing-macOS-#{version}-unsigned.pkg"
   name "vChewing"
