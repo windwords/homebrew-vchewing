@@ -7,7 +7,7 @@ cask "vchewing" do
   desc "Phonabet-based input methods for typing Mandarin Chinese."
   homepage "https://vchewing.github.io/"
 
-  pkg "vChewing-macOS-#{version}-unsigned.pkg"
+  pkg "vChewing-macOS-#{version}-signed.pkg"
   
   uninstall delete: "~/Library/Input\ Methods/vChewing.app"
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewingKeyLayout.bundle"
