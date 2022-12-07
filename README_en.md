@@ -7,7 +7,7 @@ Language: [简体中文](README.md) | [繁體中文](README_zh-TW.md) | **Englis
 
 homebrew-vchewing is a Homebrew Cask for installing/uninstalling [vChewing-macOS](https://github.com/vChewing/vChewing-macOS).
 
-This Homebrew Cask does not contain the beta version of vChewing. If you want to use the beta version, please download the version marked with “pre-release” from [https://github.com/vChewing/vChewing-macOS/releases/](https://github.com/vChewing/vChewing-macOS/releases/).
+This Homebrew Cask does not contain the beta version of vChewing. If you want to use the beta version, please download the version marked with "pre-release" from [https://github.com/vChewing/vChewing-macOS/releases/](https://github.com/vChewing/vChewing-macOS/releases/).
 
 ## Version
 
