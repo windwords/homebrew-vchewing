@@ -1,10 +1,10 @@
 cask "vchewing" do
-  version "3.5.3"
-  sha256 "ab40df8542af7d70bfec5f417511e3f04c36a0929d0a3359eb8413828050de6c"
+  version "3.5.4"
+  sha256 "1e1736e6a185c0bb8f3e5220c3eee35181fed40e84d33c428bb7700bc797a642"
   
   url "https://gitee.com/vChewing/vChewing-macOS/releases/download/#{version}/vChewing-macOS-#{version}-signed.pkg"
   name "vChewing"
-  desc "Phonabet-based input methods for typing Mandarin Chinese."
+  desc "Phonabet-based input methods for typing Mandarin Chinese, providing native support for typing both Simplified and Traditional Chinese without conversions between them. This might be the only Chinese input method (for macOS) which is Sandboxed, and it won't send your data to anywhere outside your computer (nor security vulnerabilities)."
   homepage "https://vchewing.github.io/"
 
   pkg "vChewing-macOS-#{version}-signed.pkg"
