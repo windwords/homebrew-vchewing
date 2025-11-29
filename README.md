@@ -5,9 +5,9 @@ Language: **简体中文** | [繁體中文](README_zh-TW.md) | [English](README_
 
 ## 简介
 
-homebrew-vchewing是一个用于安装/卸载[威注音输入法](https://github.com/vChewing/vChewing-macOS)的Homebrew Cask。
+homebrew-vchewing是一个用于安装/卸载[唯音输入法](https://github.com/vChewing/vChewing-macOS)的Homebrew Cask。
 
-此Homebrew Cask不包含威注音测试版，若希望使用测试版，请从[https://github.com/vChewing/vChewing-macOS/releases/](https://github.com/vChewing/vChewing-macOS/releases/)下载带有“pre-release”标记的版本。
+此Homebrew Cask不包含唯音测试版，若希望使用测试版，请从[https://github.com/vChewing/vChewing-macOS/releases/](https://github.com/vChewing/vChewing-macOS/releases/)下载带有“pre-release”标记的版本。
 
 ## 版本
 
