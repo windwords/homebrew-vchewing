@@ -1,6 +1,6 @@
 cask "vchewing" do
-  version "4.4.5"
-  sha256 "40e00270456274948c1dd09ad25eb64f301b2fa3419395dba8c1d7d72db9a6af"
+  version "4.4.6"
+  sha256 "00272340b547433f3348dc03ee9fcdffb1b082ac97c9921b4797c51a75784989"
 
   url "https://gitee.com/vChewing/vChewing-macOS/releases/download/#{version}/vChewing-macOS-#{version}-signed.pkg"
   name "vChewing (唯音輸入法)"
@@ -11,9 +11,9 @@ cask "vchewing" do
 
   postflight do
     ohai "==============================="
-    ohai "Donations are warmly welcomed. More info at homepage. https://vchewing.github.io/"
+    ohai "請務必考慮贊助敝專案的開發。詳情：https://vchewing.github.io/"
     ohai ""
-    ohai "請務必考慮捐贈敝專案、或將您的潛在的配樂需求外包給開發者。詳情：https://vchewing.github.io/"
+    ohai "Donations are warmly welcomed. More info at homepage. https://vchewing.github.io/"
     ohai "==============================="
   end
 
