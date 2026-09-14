@@ -21,6 +21,8 @@ cask "vchewing" do
 
   caveats do
     puts "==============================="
+    puts "【注意】如果您是從 4.7.x 或更早的版本升級到 4.8.0 或之後的版本的話，您可能需要重新開機或清空 dylib cache。"
+    puts "==============================="
     puts "請務必考慮贊助敝專案的開發。詳情：https://vchewing.github.io/"
     puts ""
     puts "Donations are warmly welcomed. More info at homepage. https://vchewing.github.io/"
