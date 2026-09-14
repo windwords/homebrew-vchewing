@@ -9,14 +9,6 @@ cask "vchewing" do
 
   pkg "vChewing-macOS-#{version}-signed.pkg"
 
-  postflight do
-    ohai "==============================="
-    ohai "請務必考慮贊助敝專案的開發。詳情：https://vchewing.github.io/"
-    ohai ""
-    ohai "Donations are warmly welcomed. More info at homepage. https://vchewing.github.io/"
-    ohai "==============================="
-  end
-
   uninstall delete: "~/Library/Input\ Methods/vChewing.app"
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewingKeyLayout.bundle"
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ MiTAC.keylayout"
@@ -26,4 +18,12 @@ cask "vchewing" do
   uninstall delete: "~/Library/Keyboard\ Layouts/vChewing\ Dachen.keylayout"
   uninstall delete: "~/Library/Receipts/org.atelierInmu.vChewing.bom"
   uninstall delete: "~/Library/Receipts/org.atelierInmu.vChewing.plist"
+
+  caveats do
+    puts "==============================="
+    puts "請務必考慮贊助敝專案的開發。詳情：https://vchewing.github.io/"
+    puts ""
+    puts "Donations are warmly welcomed. More info at homepage. https://vchewing.github.io/"
+    puts "==============================="
+  end
 end
