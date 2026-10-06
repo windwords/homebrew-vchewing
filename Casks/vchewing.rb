@@ -1,6 +1,6 @@
 cask "vchewing" do
-  version "4.8.6"
-  sha256 "27461ee62ae4f0462328201650cf90140e79fe455b7fb212eaeda7f980f6ff33"
+  version "4.8.7"
+  sha256 "90caf94b9e665de5af0fb10375bf621c94719b406839383690093b5672e05f38"
 
   url "https://gitee.com/vChewing/vChewing-macOS/releases/download/#{version}/vChewing-macOS-#{version}-signed.pkg"
   name "vChewing (唯音輸入法)"
