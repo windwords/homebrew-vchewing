@@ -21,6 +21,7 @@ At present, the update method of this Cask is manual synchronization. That is, e
 
 ```shell
 brew tap windwords/vchewing
+brew trust --cask windwords/vchewing/vchewing
 brew install --cask vchewing
 ```
 

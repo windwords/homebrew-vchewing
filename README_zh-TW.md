@@ -21,6 +21,7 @@ homebrew-vchewing是一個用於安裝/解除安裝[唯音輸入法](https://git
 
 ```shell
 brew tap windwords/vchewing
+brew trust --cask windwords/vchewing/vchewing
 brew install --cask vchewing
 ```
 
